@@ -2,7 +2,7 @@
 
 1. Insde the Docker folder run
     ```
-    docker build -t pdelab .
+    docker build -t pdelab dockerfiles/
     ```
 2. Run
    ```
