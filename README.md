@@ -10,11 +10,11 @@ Docker image with jupyter lab and fenics installed.
    ``` 
 2. Run
    ```
-   docker run -ti  -p 8888:8888 pdelab
+   docker run -ti  -p 8888:8888 thepnpsolver/pdelab:stable
    ```
    if you need to share a folder:
    ```
-   docker run -ti -p 8888:8888 -v <local-foder>:<docker-folder> pdelab
+   docker run -ti -p 8888:8888 -v <local-foder>:<docker-folder> thepnpsolver/pdelab:stable
    ```
 3. Run
     ```
