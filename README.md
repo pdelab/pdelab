@@ -6,7 +6,7 @@ Docker image with jupyter lab and fenics installed.
 
 1. Download the image from dockerhub
    ```
-   docker pull 
+   docker pull thepnpsolver/pdelab:stable
    ``` 
 2. Run
    ```
