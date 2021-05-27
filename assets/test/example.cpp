@@ -1,4 +1,3 @@
-#include <dolfin.h>
 #include "example.h"
 
 
@@ -15,6 +14,14 @@ int create_mesh(int grid_size) {
   dolfin::Point zeros(0.0, 0.0, 0.0);
   dolfin::Point ones(1.0, 1.0, 1.0);
   dolfin::BoxMesh mesh(zeros, ones, grid_size, grid_size, grid_size);
+
+  int num_cells = int(mesh.num_cells());
+
+  return num_cells;
+}
+
+
+int sizemesh(dolfin::Mesh mesh) {
 
   int num_cells = int(mesh.num_cells());
 
